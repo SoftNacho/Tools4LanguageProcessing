@@ -1,0 +1,30 @@
+__SoftNacho__LING402-HW08-GRADE-RUBRIC__
+
+part 1 functions correctly:	3/4
+	removes leading/trailing space:	1/1
+	inserts space:	1/1
+	tracks level correctly:	1/1
+	outputs one tree per line:	0/1
+part 2 functions correctly:	0.8/1
+part 3 functions correctly:	6/8
+	initialization:	1/1
+	push/pop parents:	1/1
+	push/pop children:	1/1
+	processes siblings:	1.5/2
+	formatted output:	1.5/2
+	raises RuntimeError:	0/1
+part 4 functions correctly:	0/1
+part 5 functions correctly:	5.8/6
+	functional Entry class:	0.8/1
+	functional print_entries():	3/3
+	processes input correctly:	2/2
+
+TOTAL:	15.6/20
+
+__TA-COMMENTS-IF-ANY__
+
+part 1:	Just calling input_string.strip() will not actually change input_string. You need to save the results of stripping and/or replacing characters to variables, e.g. input_string = input_string.strip(), for the processing to be effective.
+part 2:	Same issue as part 1.
+part 3:	parent node is printed instead of parent node's string (line 61). while loop (line 73) needs to check for length of the children list > 0 (rather than != 0). The syntax of raising an error is: raise RuntimeError("error message").
+part 4:	Won't work as there are no variables named $count, $children or $parent
+part 5:	Same issue as part 1. The results of stripping and splitting need to be saved to variables.

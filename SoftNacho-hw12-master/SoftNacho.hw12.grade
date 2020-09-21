@@ -1,0 +1,26 @@
+__SoftNacho__LING402-HW12-GRADE-RUBRIC__
+
+d.py functions correctly:	13/13
+	sort by length:	3/3
+	sort lexicographically:	3/3
+	output matches for default input:	4/4
+	output matches for other input:	3/3
+c.py functions correctly:	2/2
+	splits list:	0.5/0.5
+	sorted output:	0.5/0.5
+	unique tokens:	0.5/0.5
+	output matches expected:	0.5/0.5
+b.py functions correctly:	2/2
+	returns tags:	0.5/0.5
+	sorted output:	0.5/0.5
+	removes duplidates:	0.5/0.5
+	output matches expected:	0.5/0.5
+a.py functions correctly:	3/3
+	returns a dictionary:	1/1
+	returns most frequent casing:	1/1
+	returns first casing if tied:	1/1
+
+TOTAL:	20/20
+
+__TA-COMMENTS-IF-ANY__
+

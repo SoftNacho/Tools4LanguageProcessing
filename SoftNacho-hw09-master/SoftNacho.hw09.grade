@@ -1,0 +1,25 @@
+__SoftNacho__LING402-HW09-GRADE-RUBRIC__
+
+d.py functions correctly:	12.2/12.2
+	loads nltk.udhr:	2/2
+	iterates fileids:	2/2
+	counts fileids:	2/2
+	formatted string:	2/2
+	leading zeroes:	2.2/2.2
+	output matches expected:	2/2
+c.py functions correctly:	2.6/2.6
+	counts words:	1/1
+	counts unique words:	1/1
+	output matches expected:	0.6/0.6
+b.py functions correctly:	2.6/2.6
+	loads nltk gutenberg:	1/1
+	computes averages:	1/1
+	output matches expected:	0.6/0.6
+a.py functions correctly:	2.6/2.6
+	creates translation dictionary:	1/1
+	checks word in dictionary:	1/1
+	output matches expected:	0.6/0.6
+
+TOTAL:	20/20
+
+__TA-COMMENTS-IF-ANY__

@@ -1,0 +1,26 @@
+__SoftNacho__LING402-HW10-GRADE-RUBRIC__
+
+d.py functions correctly:	0/12.2
+	checks num of arguments:	0/4
+	correct error message:	0/2
+	English French switched:	0/2
+	tab separated sentences:	0/2
+	output matches expected:	0.0/2.2
+c.py functions correctly:	0/2.6
+	uses word_tokenize:	0/1
+	correct calculations:	0/1
+	output matches expected:	0.0/0.6
+b.py functions correctly:	0/2.6
+	uses word_tokenize:	0/1
+	counts unique tokens:	0/1
+	output matches expected:	0.0/0.6
+a.py functions correctly:	0/2.6
+	defines function pg():	0/1
+	function works correctly:	0/1
+	output matches expected:	0.0/0.6
+
+TOTAL:	0/20
+
+__TA-COMMENTS-IF-ANY__
+
+no submission

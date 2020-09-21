@@ -1,0 +1,23 @@
+__SoftNacho__LING402-hw04-GRADE-RUBRIC__
+
+compile_corpus_vocabulary.sh functions correctly	0.9/1
+delete_extra_spaces.sh functions correctly	1/1
+lowercase_to_uppercase.sh functions correctly	1/1
+misspelled_words.sh functions correctly	1/1
+remove_carriage_returns.sh functions correctly	0/1
+replace_extra_whitespace.sh functions correctly	1/1
+show_all-number_lines.sh functions correctly	1/1
+suppress_repeated_empty_lines.sh functions correctly	0.85/1
+upper_case_bin.sh functions correctly	1/1
+vowel_user_list.sh functions correctly	1/1
+
+TOTAL:	8.75/10
+
+__TA-COMMENTS-IF-ANY__
+
+late submission	2017-09-18	no penalty	instruction permission (@153)
+
+compile_corpus_vocabulary.sh	your solution will keep in the output lines that consist entirely of whitespace. See instructions in file
+remove_carriage_returns.sh	the task is to remove all \r characters. your solution replaces all dollar sign characters ($) with \r
+suppress_repeated_empty_lines.sh	Your solution will remove all consecutive empty lines in the input. The correct behavior is to squeeze consecutive empty lines into one single newline character. See post @161 on course piazza
+In general, it is not necessary to echo and tee before text processing commands. Text processing commands like tr, sed and grep read stdin and output to stdout by default

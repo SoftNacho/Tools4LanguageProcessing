@@ -1,0 +1,110 @@
+Iteration 0: perplexity inf --> 25.931568569324178
+t[the | das] = 0.25
+t[the | Haus] = 0.25
+t[the | Buch] = 0.25
+t[the | ein] = 0.25
+t[house | das] = 0.25
+t[house | Haus] = 0.25
+t[house | Buch] = 0.25
+t[house | ein] = 0.25
+t[book | das] = 0.25
+t[book | Haus] = 0.25
+t[book | Buch] = 0.25
+t[book | ein] = 0.25
+t[a | das] = 0.25
+t[a | Haus] = 0.25
+t[a | Buch] = 0.25
+t[a | ein] = 0.25
+
+Iteration 1: perplexity 25.931568569324178 --> 23.731896224487812
+t[the | das] = 0.5
+t[the | Haus] = 0.5
+t[the | Buch] = 0.25
+t[the | ein] = 0.0
+t[house | das] = 0.25
+t[house | Haus] = 0.5
+t[house | Buch] = 0.0
+t[house | ein] = 0.0
+t[book | das] = 0.25
+t[book | Haus] = 0.0
+t[book | Buch] = 0.5
+t[book | ein] = 0.5
+t[a | das] = 0.0
+t[a | Haus] = 0.0
+t[a | Buch] = 0.25
+t[a | ein] = 0.5
+
+Iteration 2: perplexity 23.731896224487812 --> 23.496082234019028
+t[the | das] = 0.6363636363636364
+t[the | Haus] = 0.4285714285714286
+t[the | Buch] = 0.18181818181818182
+t[the | ein] = 0.0
+t[house | das] = 0.18181818181818182
+t[house | Haus] = 0.5714285714285715
+t[house | Buch] = 0.0
+t[house | ein] = 0.0
+t[book | das] = 0.18181818181818182
+t[book | Haus] = 0.0
+t[book | Buch] = 0.6363636363636364
+t[book | ein] = 0.4285714285714286
+t[a | das] = 0.0
+t[a | Haus] = 0.0
+t[a | Buch] = 0.18181818181818182
+t[a | ein] = 0.5714285714285715
+
+Iteration 3: perplexity 23.496082234019028 --> 23.31440029295105
+t[the | das] = 0.7478974515333995
+t[the | Haus] = 0.34661354581673304
+t[the | Buch] = 0.1208425438930813
+t[the | ein] = 0.0
+t[house | das] = 0.13126000457351933
+t[house | Haus] = 0.6533864541832669
+t[house | Buch] = 0.0
+t[house | ein] = 0.0
+t[book | das] = 0.1208425438930813
+t[book | Haus] = 0.0
+t[book | Buch] = 0.7478974515333995
+t[book | ein] = 0.34661354581673304
+t[a | das] = 0.0
+t[a | Haus] = 0.0
+t[a | Buch] = 0.13126000457351933
+t[a | ein] = 0.6533864541832669
+
+Iteration 4: perplexity 23.31440029295105 --> 23.178787577192637
+t[the | das] = 0.8344395715124338
+t[the | Haus] = 0.2755211789521138
+t[the | Buch] = 0.07516523179034365
+t[the | ein] = 0.0
+t[house | das] = 0.09039519669722251
+t[house | Haus] = 0.7244788210478862
+t[house | Buch] = 0.0
+t[house | ein] = 0.0
+t[book | das] = 0.07516523179034365
+t[book | Haus] = 0.0
+t[book | Buch] = 0.8344395715124339
+t[book | ein] = 0.2755211789521138
+t[a | das] = 0.0
+t[a | Haus] = 0.0
+t[a | Buch] = 0.09039519669722253
+t[a | ein] = 0.7244788210478862
+
+Iteration 5: perplexity 23.178787577192637 --> 23.084874169284785
+t[the | das] = 0.8960831177730378
+t[the | Haus] = 0.21826012818351043
+t[the | Buch] = 0.044362914706818864
+t[the | ein] = 0.0
+t[house | das] = 0.05955396752014332
+t[house | Haus] = 0.7817398718164896
+t[house | Buch] = 0.0
+t[house | ein] = 0.0
+t[book | das] = 0.04436291470681886
+t[book | Haus] = 0.0
+t[book | Buch] = 0.8960831177730377
+t[book | ein] = 0.21826012818351037
+t[a | das] = 0.0
+t[a | Haus] = 0.0
+t[a | Buch] = 0.059553967520143324
+t[a | ein] = 0.7817398718164896
+
+
+23.084874169284785

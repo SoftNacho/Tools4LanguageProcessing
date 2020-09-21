@@ -1,0 +1,18 @@
+__SoftNacho__LING402-HW03-GRADE-RUBRIC__
+
+character_count.sh functions correctly	1/1
+duplicates.sh functions correctly	0.85/1
+find_final_bullet_points.sh functions correctly	1/1
+list_bin.sh functions correctly	0.9/1
+list_conf.sh functions correctly	0.85/1
+long_list-reverse_sort-human_readable.sh functions correctly	1/1
+mk_year_dirs.sh functions correctly	1/1
+orthodox_easter.sh functions correctly	0.9/1
+print_full_path.sh functions correctly	1/1
+sorted_user_list.sh functions correctly	1/1
+
+TOTAL:	9.5/10
+
+__TA-COMMENTS-IF-ANY__
+
+regraded	2017-09-25

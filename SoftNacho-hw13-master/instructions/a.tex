@@ -1,0 +1,106 @@
+\documentclass[]{article}
+
+\usepackage{bm}
+
+\begin{document}
+
+\section*{a.py}
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+\begin{verbatim}
+def compute_normalization(self, e_sentence, f_sentence):
+\end{verbatim}
+
+The above function in \texttt{a.py} should be defined according to the following formula,
+%
+\begin{equation}
+\forall_{e \in {\bm e}} \ \ \ z_e = \sum_{f \in {\bm f}} t(e|f)
+\end{equation}
+%
+where $t(\ldots)$ is the conditional distribution \texttt{self.t}, ${\bm e}$ is the English sentence \texttt{e\_sentence}, ${\bm f}$ is the corresponding foreign sentence \texttt{f\_sentence}, $z_e$ is the computed normalization constant for a particular English word $e$ in $\bm{e}$, and $\bm{z}$ is a dictionary that maps from each English word $e$ to the corresponding calculated normalization constant $z_e$ for all $e$ in $\bm{e}$.
+
+The function should return $\bm{z}$, the dictionary of computed values.
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+\begin{verbatim}
+def update_counts(self, e_sentence, f_sentence, counts, z)
+\end{verbatim}
+
+The above function in \texttt{a.py} should be defined according to the following formula,
+%
+\begin{equation}
+\forall_{e \in \bm{e}} \forall_{f \in \bm{f}} \ \ \ c(e|f) = c(e|f) + \frac{t(e|f)}{z_e}
+\end{equation}
+%
+where $c(\ldots)$ is the conditional distribution \texttt{counts}, ${\bm e}$ is the English sentence \texttt{e\_sentence}, ${\bm f}$ is the corresponding foreign sentence \texttt{f\_sentence}, $z_e$ is the normalization constant for a particular English word $e$ in $\bm{e}$, and $\bm{z}$ is the dictionary \texttt{z} that maps from each English word $e$ to the corresponding calculated normalization constant $z_e$ for all $e$ in $\bm{e}$.
+
+The function will not return a value. Instead, it will have the side effect of causing values in the conditional distribution \texttt{counts} to be updated.
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+
+\begin{verbatim}
+def update_totals(self, e_sentence, f_sentence, totals, z)
+\end{verbatim}
+
+The above function in \texttt{a.py} should be defined according to the following formula,
+%
+\begin{equation}
+\forall_{e \in \bm{e}} \forall_{f \in \bm{f}} \ \ \ \texttt{totals}[f] = \texttt{totals}[f] + \frac{t(e|f)}{z_e}
+\end{equation}
+%
+where \texttt{totals} is a dictionary that maps from foreign words to floating point values, and the other items are as defined above.
+
+The function will not return a value. Instead, it will have the side effect of causing values in the dictionary \texttt{totals} to be updated.
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+\newpage
+
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\ \\
+
+\begin{verbatim}
+def update_probabilities(self, counts, totals)
+\end{verbatim}
+
+The above function in \texttt{a.py} should be defined according to the following formula,
+%
+\begin{equation}
+\forall_{e \in \bm{e}} \forall_{f \in \bm{f}} \ \ \ t(e|f) = \frac{c(e|f)}{\texttt{totals}[f]}\end{equation}
+%
+where $c(\ldots)$ is the conditional distribution \texttt{counts}, $t(\ldots)$ is the conditional distribution \texttt{self.t}, and the other items are as defined above.
+
+The function will not return a value. Instead, it will have the side effect of causing values in the dictionary \texttt{self.t} to be updated.
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\ \\
+
+\begin{verbatim}
+def initialize_totals(self)
+\end{verbatim}
+
+The above function in \texttt{a.py} should be defined according to the following formula,
+%
+\begin{equation}
+\forall_{f \in {\bm F}} \ \ {\texttt{totals}[f]} = 0.0
+\end{equation}
+%
+where ${\bm F}$ is the foreign vocabulary.
+
+The function should return the dictionary \texttt{totals}.
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\ \\
+
+\end{document}

@@ -1,0 +1,30 @@
+__SoftNacho__LING402-HW11-GRADE-RUBRIC__
+
+d.py functions correctly:	13/13
+	accepts standard input:	2/2
+	lowercases:	1/1
+	handles punctuation:	2/2
+	keep_apostrophe functions:	3/3
+	tokenizes graphemes:	3/3
+	output matches expected:	2/2
+c.py functions correctly:	1.8/2
+	devoicing rules:	1.5/1.5
+	output matches expected:	0.3/0.5
+b.py functions correctly:	2/2
+	converts to IPA:	1/1
+	output matches expected:	1/1
+a.py functions correctly:	0.8/3
+	checks syllable forms:	0/2
+	outputs ill-formed words:	0.4/0.5
+	output formatted correctly:	0.4/0.5
+extra_credit.py functions correctly:	0/1
+
+TOTAL:	17.6/20
+
+__TA-COMMENTS-IF-ANY__
+
+extra_credit.py	no submission
+
+c.py	Your solution didn't actually remove punctuations from the raw input, only stripped them off to empty strings. It wans't an issue for d.py as tokenize() checked for input length > 0, but for c.py and b.py it surfaces as extra spaces in the output.
+a.py	The output should be just the words that violate Yupik spelling rules.
+a.py	violates_spelling_rules() starts from the beginning of the word, and will wrongly flag otherwise legal words like CVCVC. It should start from the end of the word or do look-ahead. See @392, @406 on Piazza.

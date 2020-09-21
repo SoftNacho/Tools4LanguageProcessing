@@ -1,0 +1,36 @@
+__SoftNacho__LING402-HW07-GRADE-RUBRIC__
+
+part 1 functions correctly:	13/13
+	functional rock_paper_scissors():	6/6
+	import and function call:	6/6
+	checks __name__:	1/1
+part 2 functions correctly:	12/13
+	imports myrandom:	2/2
+	uses for loop:	2/2
+	tracks number of rock/paper/scissors:	6/6
+	prints formatted output:	1/2
+	checks __name__:	1/1
+part 3 functions correctly:	61/61
+	functional chutes_and_ladders_spinner:	5/5
+	functional move():	5/5
+	handles new position>100:	5/5
+	handles ladders and chutes:	15/15
+	functional play_chutes_and_ladders():	10/10
+	functional while loop:	5/5
+	tracks number of moves:	5/5
+	checks print parameter:	5/5
+	prints formatted output:	5/5
+	checks __name__:	1/1
+part 4 functions correctly:	12/13
+	imports chutes_and_ladders:	2/2
+	uses for loop:	2/2
+	tracks numbers of moves:	6/6
+	prints formatted output:	1/2
+	checks __name__:	1/1
+
+TOTAL:	98/100
+
+__TA-COMMENTS-IF-ANY__
+
+part 2:	the output is expected to be numbers followed by tab and labels "rock", "paper" and "scissors". See simulate_rps.rst and @261 on Piazza.
+part 4:	the output is expected to be numbers followed by tab and labels "min", "mean" and "max". See simulate_cl.rst

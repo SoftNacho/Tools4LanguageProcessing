@@ -1,0 +1,19 @@
+t[the | das] = 0.25
+t[the | Haus] = 0.25
+t[the | Buch] = 0.25
+t[the | ein] = 0.25
+t[house | das] = 0.25
+t[house | Haus] = 0.25
+t[house | Buch] = 0.25
+t[house | ein] = 0.25
+t[book | das] = 0.25
+t[book | Haus] = 0.25
+t[book | Buch] = 0.25
+t[book | ein] = 0.25
+t[a | das] = 0.25
+t[a | Haus] = 0.25
+t[a | Buch] = 0.25
+t[a | ein] = 0.25
+
+
+25.931568569324178

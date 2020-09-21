@@ -1,0 +1,66 @@
+\documentclass[]{article}
+
+\usepackage{bm}
+
+\begin{document}
+
+\section*{b.py}
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+\begin{verbatim}
+def create_uniform_distribution(self, name):
+\end{verbatim}
+
+The above function in \texttt{b.py} should be defined according to the following formula,
+%
+\begin{equation}
+\forall_{e \in {\bm E}} \  \forall_{f \in {\bm E}} \ \ t(e | f) = \frac{1.0}{|{\bm F}|}
+\end{equation}
+%
+where $t(\ldots)$ is a conditional distribution with the name \texttt{name}, ${\bm E}$ is the English vocabulary, ${\bm F}$ is the foreign vocabulary, $|{\bm F}|$ is the number of words in the foreign vocabulary. 
+
+The function should return the initialized conditional distribution $t(\ldots)$.
+
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+
+\begin{verbatim}
+def conditional_probability(self, sentence_index, epsilon, conditional)
+\end{verbatim}
+
+The above function in \texttt{b.py} should be defined according to the following formula,
+%
+\begin{equation}
+p({\bm e}|{\bm f}) = \frac{\epsilon}{(l_f)^{l_e}} \sum_{j=0}^{(l_e - 1)} \sum_{i=0}^{(l_f - 1)} t(e_j | f_i)
+\end{equation}
+%
+where the function argument \texttt{conditional} is represented in the formula by $t(\ldots)$, and where ${\bm e}$ and ${\bm f}$ are the English and foreign sentences at \texttt{sentence\_index}, $e_j$ is the $j^{th}$ token in the English sentence, $f_i$ is the $i^{th}$ token in the foreign sentence, $l_e$ is the length of the English sentence in tokens, $l_f$ is the length of the foreign sentence in tokens, and $\epsilon$ is \texttt{epsison}.
+
+The function should return the floating point value $p({\bm e}|{\bm f})$.
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+
+
+\begin{verbatim}
+def perplexity(self, epsilon, conditional):
+\end{verbatim}
+
+The above function in \texttt{b.py} should be defined according to the following formula,
+%
+\begin{equation}
+PP = - \sum_{s=0}^{S-1} \log_2 p({\bm e}_s | {\bm f}_s)
+\end{equation}
+%
+where $S$ is the number of sentence pairs in the parallel corpus, $s$ is a sentence index, and $p({\bm e}_s | {\bm f}_s)$ in the formula represents a function call to \texttt{conditional\_probability}.
+
+The function should return the floating point value $PP$.
+\ \\
+\noindent\rule[0.5ex]{\linewidth}{1pt}
+\ \\
+
+
+
+\end{document}

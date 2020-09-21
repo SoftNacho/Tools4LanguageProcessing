@@ -1,0 +1,28 @@
+__SoftNacho__LING402-HW06-GRADE-RUBRIC__
+
+d.sh functions correctly:	13/13
+	creates_dir:	3/3
+	delete_old_dir:	3/3
+	create_dir_with_pos_par:	2/2
+	uses_for_loop:	3/3
+	contains_all_month_names:	2/2
+c.sh functions correctly:	3/3
+	uses_case_12_cases:	1/1
+	dollar_notation_seq_for:	1/1
+	touches_correct_days:	1/1
+b.sh functions correctly:	3/3
+	checks_num_par:	1/1
+	uses_3_cases:	1/1
+	leap_year:	1/1
+a.sh functions correctly:	2/3
+	checks_four_digits:	0/1
+	functional wget:	1/1
+	complex_leap_year:	1/1
+extra_credit.sh functions correctly:	0/1
+
+TOTAL:	21/22
+
+__TA-COMMENTS-IF-ANY__
+
+a.sh	the parameter should be checked for being a four-digit number, not just having 4 characters. See instructions in a.rst
+extra_credit.sh	no submission

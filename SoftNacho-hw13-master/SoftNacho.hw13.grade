@@ -1,0 +1,33 @@
+__SoftNacho__LING402-HW13-GRADE-RUBRIC__
+
+d.py functions correctly:	13/13
+	get_int():	3/3
+	get_word():	3/3
+	size():	2/2
+	output matches expected:	3/3
+	functions for other input:	2/2
+c.py functions correctly:	2/2
+	constructor:	0.4/0.4
+	get()/set():	0.4/0.4
+	__str__:	0.4/0.4
+	output matches expected:	0.4/0.4
+	functions for other input:	0.4/0.4
+b.py functions correctly:	1.9/2
+	add():	0.4/0.4
+	create_uniform_distribution():	0.4/0.4
+	conditional_probability():	0.3/0.4
+	perplexity():	0.4/0.4
+	output matches expected:	0.4/0.4
+a.py functions correctly:	3/3
+	compute_normalization():	0.5/0.5
+	update_counts():	0.5/0.5
+	update_totals():	0.5/0.5
+	update_probabilities():	0.5/0.5
+	initialize_totals():	0.5/0.5
+	output matches expected:	0.5/0.5
+
+TOTAL:	19.9/20
+
+__TA-COMMENTS-IF-ANY__
+
+b.py	The denominator in conditional_probability() should be len(f) to the power of len(e), not len(e)*len(f) (see b.pdf). The default input works because the sentences all happen to have equal lengths of 2, and the numbers turn out to be the same.
